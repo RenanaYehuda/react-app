@@ -1,12 +1,10 @@
-import Message from './comps/message';
-import './App.css';
-import Counter from './comps/counter';
-import InputVal from './comps/inputVal';
+import "./App.css";
+import AppHw from "./comps/appHw";
 
 function App() {
   return (
     <div className="container">
-      <h1 className='text-danger'>React</h1>
+      <h1 className="text-danger">React</h1>
       {/* חיבור בין קומפנינטה
       פשוט זימון שלה ממש כמו תגית יחידה */}
       {/* <Message txt="first 111111" /> */}
@@ -15,8 +13,9 @@ function App() {
       msg1.render()
       */}
       {/* <Message txt="last 22222"  /> */}
-      <Counter />
-      <InputVal />
+      {/* <Counter />
+      <InputVal /> */}
+      <AppHw />
     </div>
   );
 }
