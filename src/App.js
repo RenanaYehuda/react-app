@@ -1,11 +1,13 @@
 import "./App.css";
-import AppHw from "./comps/appHw";
+import ParentColor from "./comps/parentColor";
+import React from "react";
 
-function App() {
-  return (
+
+function App (){
+  
+    return (
     <div className="container">
-      <h1 className="text-danger">React</h1>
-      <AppHw />
+     <ParentColor/>
     </div>
   );
 }
