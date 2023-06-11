@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Color from "./comps/color";
+import Color from "./color";
 
 export default class ParentColor extends Component {
   state={color:"black"}
