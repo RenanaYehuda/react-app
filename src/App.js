@@ -1,13 +1,17 @@
 import "./App.css";
-import ParentColor from "./comps/parentColor";
+import AppHooks from "./hooks_comps/appHooks";
 import React from "react";
+import Toggle from "./hooks_comps/toggle";
+import SelectColor from "./hooks_comps/selectColor";
+import AppTv from "./api_comps/appTv";
 
-
-function App (){
-  
-    return (
+function App() {
+  return (
     <div className="container">
-     <ParentColor/>
+      <AppTv />
+      {/* <AppHooks />
+      <Toggle />
+      <SelectColor /> */}
     </div>
   );
 }
