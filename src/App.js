@@ -4,11 +4,12 @@ import React from "react";
 import Toggle from "./hooks_comps/toggle";
 import SelectColor from "./hooks_comps/selectColor";
 import AppTv from "./api_comps/appTv";
+import AppHw from "./comps/appHw";
 
 function App() {
   return (
     <div className="container">
-      <AppTv />
+      {/* <AppHw /> */}
       {/* <AppHooks />
       <Toggle />
       <SelectColor /> */}
