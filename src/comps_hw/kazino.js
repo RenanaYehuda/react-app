@@ -22,13 +22,12 @@ export default function Kazino() {
     }
 
     return (
-        <>
         <div className="container">
+            <h1>Hello</h1>
             <img src={`../images/dice_images/dice${role}.jpg`} alt={role.toString()}/>
             <hr></hr>
             <button className="btn btn-primary btn-rounded" onClick={scrole}>scrole</button>
           <h3>your coins: {coin}</h3>
             </div>
-        </>
     )
 }
